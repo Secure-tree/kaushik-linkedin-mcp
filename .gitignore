@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+.uv/
+
+# SESSION DATA — CRITICAL: NEVER COMMIT
+# The LinkedIn session file contains your browser cookies and auth tokens.
+# It lives OUTSIDE the repo at ~/.kaushik-linkedin-mcp/session/storage.json
+session/
+storage.json
+browser-data/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright
+playwright-report/
+test-results/
