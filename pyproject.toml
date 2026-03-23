@@ -1,0 +1,35 @@
+[project]
+name = "kaushik-linkedin-mcp"
+version = "1.0.0"
+description = "A personal LinkedIn MCP server — built from scratch by Kaushik Muthukumaran"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "Kaushik Muthukumaran", email = "kaushikrmk01@gmail.com" }
+]
+license = { text = "MIT" }
+
+dependencies = [
+    "fastmcp>=2.0.0",
+    "playwright>=1.44.0",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.0.0",
+]
+
+[project.scripts]
+kaushik-linkedin-mcp = "kaushik_linkedin_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kaushik_linkedin_mcp"]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.4.0",
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
