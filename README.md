@@ -326,12 +326,13 @@ uv run kaushik-linkedin-mcp --logout && uv run kaushik-linkedin-mcp --login
 ## 👤 Author
 
 **Kaushik Muthukumaran**
-Security Engineer | MasTec Network Solutions | King of Prussia, PA
+Security Engineer | AI + Cybersecurity Researcher 
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/kaushik-muthukumaran-a901612a2)
 - 📧 kaushikrmk01@gmail.com
+- 🏅  Ms in Cybersecurity
 - 🏅 CompTIA Network+ Certified
-- 🔬 Research: AI-Driven Threat Detection · Zero Trust · ML Risk Scoring
+- 🔬 Research: AI-Driven Threat Detection · Zero Trust · ML Risk Scoring and Remediation
 
 ---
 
